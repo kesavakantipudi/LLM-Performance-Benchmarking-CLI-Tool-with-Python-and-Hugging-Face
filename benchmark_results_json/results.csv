@@ -1,0 +1,25 @@
+model_name,prompt_id,prompt_text,latency_sec,throughput_tps,generated_tokens,peak_ram_bytes,peak_ram_mb,peak_gpu_bytes,peak_gpu_mb,type_token_ratio,is_degenerate,output_sample
+sshleifer/tiny-gpt2,1,Explain the concept of quantum computing in simple terms for a beginner.,0.11487560000000485,217.63,25,475963392,453.91,,,0.9375,False,praying Pocket Late Medic deflect mutual workshops653Outside mutualacious clearer incarcer bravery boils boils perhaps D...
+sshleifer/tiny-gpt2,2,Write a concise Python function that checks if a string is a palindrome.,0.14871030000017527,168.11,25,476020736,453.97,,,1.0,False,grandchildren factors Bend equate653 perhapsshows incarcer� Bend448 linedOutside rubbing Boone Tre653 membership lined p...
+sshleifer/tiny-gpt2,3,Summarize the primary benefits and risks of adopting renewable energy.,0.12004240000010213,208.26,25,476053504,454.0,,,0.8261,False,Singapore bravery predators brutality Redux praying Pocket clearer Wheels deflect bravery soy Boone factors predatorsozy...
+sshleifer/tiny-gpt2,4,Translate the following English sentence to French: 'Artificial intelligence is changing the future ...,0.10625559999994039,235.28,25,476557312,454.48,,,0.8824,False,stairsmediately heir Motorola Moneytingoho TA circumcisedmediately pawn Motorola dispatch substatisfimura Habit antibiot...
+sshleifer/tiny-gpt2,5,List five actionable tips for maintaining high software engineering productivity.,0.10993279999979677,227.41,25,476573696,454.5,,,0.9375,False,acious skilletMostMini448 deflectacious prayingpublicMostMostSexual factors skillet equate incarcer incarcerpublic clear...
+hf-internal-testing/tiny-random-gpt2,1,Explain the concept of quantum computing in simple terms for a beginner.,0.06132049999996525,407.69,25,467615744,445.95,,,1.0,False,1rit�ere afterif revved suableable . Zirectweenublelf She publurnadff� 1 ro
+hf-internal-testing/tiny-random-gpt2,2,Write a concise Python function that checks if a string is a palindrome.,0.06903790000001209,362.12,25,467853312,446.18,,,1.0,False,fereatrossthadedu] 2� . @ seriesff produralann fe exp expentranune there it m
+hf-internal-testing/tiny-random-gpt2,3,Summarize the primary benefits and risks of adopting renewable energy.,0.06749349999995502,370.41,25,467697664,446.03,,,1.0,False,YL Com for have Th bet epis muspr dep� end popject� alsoouthav 00iamyp��oc
+hf-internal-testing/tiny-random-gpt2,4,Translate the following English sentence to French: 'Artificial intelligence is changing the future ...,0.07007170000019869,356.78,25,467693568,446.03,,,0.9,False,foundo ar ar 198tern publentreatith popouldifif&erm wh otherurchostween compident3ber
+hf-internal-testing/tiny-random-gpt2,5,List five actionable tips for maintaining high software engineering productivity.,0.0655500000000302,381.39,25,467193856,445.55,,,1.0,False,have as; d where%ledount�ong centuryall Wh mainire su� game� an 4 who St feam
+distilbert/distilgpt2,1,Explain the concept of quantum computing in simple terms for a beginner.,0.5380917999998474,46.46,25,838598656,799.75,,,0.0,False,"‽
+
+
+‽
+‽
+‽
+‽
+‽
+‽
+‽"
+distilbert/distilgpt2,2,Write a concise Python function that checks if a string is a palindrome.,0.5226178000000345,47.84,25,838930432,800.07,,,0.0,True,
+distilbert/distilgpt2,3,Summarize the primary benefits and risks of adopting renewable energy.,0.5205149000000802,48.03,25,839077888,800.21,,,0.0,True,
+distilbert/distilgpt2,4,Translate the following English sentence to French: 'Artificial intelligence is changing the future ...,0.5319433000001936,47.0,25,839401472,800.52,,,0.75,False,"The most powerful and powerful person in history has been the great inventor of artificial intelligence, a major player ..."
+distilbert/distilgpt2,5,List five actionable tips for maintaining high software engineering productivity.,0.5217331999999715,47.92,25,839499776,800.61,,,0.0,True,

@@ -1,0 +1,20 @@
+# LLM Benchmarking Suite Configuration
+# Contract requires at least 3 distinct open-source Hugging Face models
+models:
+  - "sshleifer/tiny-gpt2"
+  - "hf-internal-testing/tiny-random-gpt2"
+  - "distilbert/distilgpt2"
+
+# Dataset containing prompts (.jsonl or .csv)
+dataset_path: "datasets/sample_prompts.jsonl"
+
+# Generation Hyperparameters
+max_new_tokens: 35
+temperature: 0.7
+top_p: 0.9
+do_sample: true
+
+# Benchmarking Settings
+warmup_runs: 1
+output_dir: "benchmark_results"
+min_tokens_for_degenerate: 5

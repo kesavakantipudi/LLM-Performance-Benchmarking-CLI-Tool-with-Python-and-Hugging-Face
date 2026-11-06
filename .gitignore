@@ -1,0 +1,27 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment Variables & Secrets
+.env
+
+# Temporary evaluation outputs
+demo_results/
+
+# Video script & slide assets
+video-script.md
+assets/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+

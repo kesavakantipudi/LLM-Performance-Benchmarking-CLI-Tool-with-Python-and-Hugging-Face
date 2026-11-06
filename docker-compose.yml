@@ -1,0 +1,17 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app
+      - hf_cache:/app/.cache/huggingface
+    environment:
+      - HF_TOKEN=${HF_TOKEN:-}
+      - HF_HOME=/app/.cache/huggingface
+      - PYTHONUNBUFFERED=1
+    command: ["python", "src/cli.py", "--config", "configs/benchmark_config.yaml"]
+
+volumes:
+  hf_cache:
+    driver: local
